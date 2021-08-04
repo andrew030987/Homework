@@ -11,7 +11,7 @@ width = int(input('Please enter width of the matrix: '))
 first = [i for i in range(0, length + 1)]
 
 
-def gen(x=1, y=1):
+def gen(x, y):
     p = 0
     z = 0
     while p <= length:
